@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_110_Oksana-2024/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/js_110_Oksana-2024/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_110_Oksana-2024/assets/vendor-D3Pz1OW-.js">
+    <link rel="stylesheet" crossorigin href="/js_110_Oksana-2024/assets/vendor-DsZ3AUy1.css">
+    <link rel="stylesheet" crossorigin href="/js_110_Oksana-2024/assets/index-Cz6NVcBP.css">
+  </head>
+  <body>
+    <header class="header-page">
+  <div class="header-container container">
+    <a class="header-logo" href="./index.html"
+      >Lloyd<span class="logo-green">jefferson.</span></a
+    >
+
+    <nav class="header-nav">
+      <label for="switch" class="switch">
+        <input type="checkbox" name="switch" id="switch" aria-label="Theme Switch" />
+        <span class="slider round"></span>
+      </label>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link js-nav-link" href="#about-me"> About me </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-nav-link" href="#my-projects"> Projects </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-nav-link" href="#work-together"> Contacts </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="menu-baget js-menu-open">
+      <svg class="icon-baget" width="30" height="20">
+        <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-baget"></use>
+      </svg>
+    </div>
+  </div>
+
+  <div class="mobile-menu js-mobile-menu">
+   <div class=".mobile-menu-container">
+      <div class="mobile-menu-article">
+        <a class="header-logo menu-logo" href="./index.html"
+          >Lloyd<span class="logo-green">jefferson.</span></a
+        >
+  
+        <div class="mobile-menu-close js-mobile-menu-close">
+          <svg class="menu-close-icon" width="16" height="16">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-close"></use>
+          </svg>
+        </div>
+      </div>
+  
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-nav-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link js-nav-link" href="#about-me">
+              About me
+            </a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link js-nav-link" href="#my-projects">
+              Projects
+            </a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link js-nav-link" href="#work-together">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+   </div>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero-page" id="hero">
+  <div class="container hero-container">
+    <div class="hero-decor"></div>
+    <div class="hero-wrapper-top">
+      <h1 class="hero-title">Hello, I am <span>Fullstack developer</span></h1>
+      <img
+        loading="lazy"
+        class="hero-img"
+        src="/js_110_Oksana-2024/assets/photo_hero_desktop-z881lNsh.webp"
+        alt="Photo developer"
+        srcset="/js_110_Oksana-2024/assets/photo_hero_desktop@2x-CAMx0PsE.webp 2x"
+        width="592"
+        height="444"
+      />
+    </div>
+
+    <div class="hero-wrapper-bottom">
+      <div class="hero-btn-wrapper">
+        <a href="#work-together" class="hero-btn"
+          ><svg class="hero-btn-ico" width="22" height="22">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-btn"></use>
+          </svg>
+          Order the project
+          <span class="hero-btn-span"></span>
+        </a>
+      </div>
+      <p class="hero-text">
+        I work with people all over the world to create
+        <span>impressive</span> and <span>functional websites</span> that
+        reflect each client’s unique personality.
+      </p>
+    </div>
+  </div>
+
+  <ul class="hero-social-list">
+    <li class="hero-social-item">
+      <a
+        href="https://www.instagram.com/goitclub/"
+        class="hero-social-link"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Instagram</a
+      >
+    </li>
+    <li class="hero-social-item">
+      <a
+        href="https://www.facebook.com/goITclub/"
+        class="hero-social-link"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Facebook</a
+      >
+    </li>
+    <li class="hero-social-item">
+      <a
+        href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+        class="hero-social-link"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Linkedin</a
+      >
+    </li>
+    <li class="hero-social-item">
+      <a
+        href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+        class="hero-social-link"
+        target="_blank"
+        rel="noreferrer noopener"
+        >GitHub</a
+      >
+    </li>
+  </ul>
+</section>
+
+      <section class="about-me-page">
+  <div class="about-container container">
+    <h2 class="about-title" id="about-me">
+      About <span class="about-title-two">me</span>
+    </h2>
+
+    <div class="about-content">
+      <div class="about-picture-bio">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/js_110_Oksana-2024/assets/about_desktop-y37eBfUL.webp 1x, /js_110_Oksana-2024/assets/about_desktop@2x-CvgZU34f.webp 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_110_Oksana-2024/assets/about_tablet-BEaBQRKE.webp 1x, /js_110_Oksana-2024/assets/about_tablet@2x-Bw-9IhWU.webp 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/js_110_Oksana-2024/assets/about_mobile-BxtAGs_i.webp 1x, /js_110_Oksana-2024/assets/about_mobile@2x-CVu275HC.webp 2x"
+          />
+          <img
+            loading="lazy"
+            src="/js_110_Oksana-2024/assets/about_mobile-BxtAGs_i.webp"
+            alt="Lloyd Jefferson"
+            width="320"
+            height="374"
+            class="about-image"
+          />
+        </picture>
+
+        <div class="about-bio">
+          <h3 class="about-subtitle">BIO</h3>
+          <p class="about-text">
+            I'm Lloyd Jefferson, a talented programmer specializing in software
+            development. My expertise spans various programming languages and
+            technologies, and I am dedicated to continually enhancing my skills.
+            I thrive on seeking unconventional and creative solutions to
+            problems, leveraging a high level of analytical skills to
+            effectively tackle even the most challenging tasks.
+          </p>
+          <p class="about-text">
+            Adaptable to both independent and team-oriented work, I collaborate
+            seamlessly with colleagues, exchanging ideas and finding optimal
+            solutions. My professional maturity enables me to navigate
+            challenges and stressful situations with a calm demeanor,
+            maintaining a consistently high quality of work. Committed to
+            self-improvement, I actively engage in studying new technologies and
+            practices to stay current with the latest innovations in the field.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-education-role">
+        <div class="education">
+          <h3 class="about-subtitle">EDUCATION</h3>
+          <ul class="education-role-sublist">
+            <li class="education-role-sublist-item">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </li>
+            <li class="education-role-sublist-item">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </li>
+            <li class="education-role-sublist-item">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <h3 class="about-subtitle">ROLE</h3>
+          <ul class="education-role-sublist">
+            <li class="education-role-sublist-item">Frontend development</li>
+            <li class="education-role-sublist-item">HeadlessCMS, Wordpress</li>
+            <li class="education-role-sublist-item">Blender (enjoy)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="about-decor"></div>
+  </div>
+</section>
+
+      <section  class="tech-skills-section section">
+  
+    <h2 class="visually-hidden">Technologiess</h2>
+
+    <div class="even-container">
+      <div class="even-line">
+        <ul class="even-list">
+          <li>Java Script</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>React Native</li>
+          <li>Typescript</li>
+          <li>Html/Css</li>
+          <li>React Native</li>
+          <li>Typescript</li>
+          <li>Html/Css</li>
+        </ul>
+        <ul class="even-list">
+          <li>Java Script</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>React Native</li>
+          <li>Typescript</li>
+          <li>Html/Css</li>
+          <li>React Native</li>
+          <li>Typescript</li>
+          <li>Html/Css</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="moving-container uneven-container">
+      <div class="uneven">
+        <ul class="uneven-list">
+          <li class="uneven-item">Java Script</li>
+          <li class="uneven-item">React</li>
+          <li class="uneven-item">Node.js</li>
+          <li class="uneven-item">React Native</li>
+          <li class="uneven-item">Typescript</li>
+          <li class="uneven-item">Html/Css</li>
+          <li class="uneven-item">React Native</li>
+          <li class="uneven-item">Typescript</li>
+          <li class="uneven-item">Html/Css</li>
+        </ul>
+        <ul class="uneven-list">
+          <li class="uneven-item">Java Script</li>
+          <li class="uneven-item">React</li>
+          <li class="uneven-item">Node.js</li>
+          <li class="uneven-item">React Native</li>
+          <li class="uneven-item">Typescript</li>
+          <li class="uneven-item">Html/Css</li>
+          <li class="uneven-item">React Native</li>
+          <li class="uneven-item">Typescript</li>
+          <li class="uneven-item">Html/Css</li>
+        </ul>
+      </div>
+    </div>
+</section>
+
+      <section class="my-projects-page">
+  <div class="container my-project-container">
+    <h2 class="titel-my-projects" id="my-projects">
+      MY <span class="green">PROJECTS</span>
+    </h2>
+    <ul class="project-list">
+      <li class="li-class-project">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_110_Oksana-2024/assets/project_1_tablet-CuWZpSsY.webp 1x, /js_110_Oksana-2024/assets/project_1@2x-CDy6Ek3e.webp 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/js_110_Oksana-2024/assets/project_1-CTrJPjKW.webp"
+          />
+          <img
+            loading="lazy"
+            src="/js_110_Oksana-2024/assets/project_1-CTrJPjKW.webp"
+            alt="1"
+            width="300"
+            height="184"
+            class="project-img"
+          />
+        </picture>
+        <p class="small-desc">React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">POWER PULSE WEBSERVICE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_110_Oksana-2024/assets/project_2_tablet-C3pq5CNL.webp 1x, /js_110_Oksana-2024/assets/project_2@2x-f5pFvYkl.webp 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/js_110_Oksana-2024/assets/project_2-Do9T8KIi.webp"
+          />
+          <img
+            loading="lazy"
+            src="/js_110_Oksana-2024/assets/project_2-Do9T8KIi.webp"
+            alt="2"
+            width="300"
+            height="184"
+            class="project-img"
+          />
+        </picture>
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">STARLIGHT STUDIO LANDING PAGE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_110_Oksana-2024/assets/project_3_tablet-BBm7etNv.webp 1x, /js_110_Oksana-2024/assets/project_3@2x-6iY2msrO.webp 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/js_110_Oksana-2024/assets/project_3-Dqx4em1R.webp"
+          />
+          <img
+            loading="lazy"
+            src="/js_110_Oksana-2024/assets/project_3-Dqx4em1R.webp"
+            alt="3"
+            width="300"
+            height="184"
+            class="project-img"
+          />
+        </picture>
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">ENERGY FLOW WEBSERVICE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_4-CN7mtxku.webp"
+          alt="4"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_4@2x-BBHATH0l.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">FRUITBOX ONLINE STORE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_5-mszFITDI.webp"
+          alt="5"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_5@2x-m_WRAGw-.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">CHEGO JEWELRY WEBSITE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_6-DVPo_GD0.webp"
+          alt="6"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_6@2x-DhCGSfZI.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">MIMINO WEBSITE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_7-C2ZD8Azx.webp"
+          alt="7"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_7@2x-CLCe3e61.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">VYSHYVSNKA VIBES LANDING PAGE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_8-CD8yNIQz.webp"
+          alt="8"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_8@2x-DqZYQxQA.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">GREEN HARVEST ONLINE STORE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_9-BhG4w2KB.webp"
+          alt="9"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_9@2x-tmeZXyIm.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">WALLET WEBSERVICE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="li-class-project hidden">
+        <img
+          loading="lazy"
+          src="/js_110_Oksana-2024/assets/project_10-B5Pidppd.webp"
+          alt="10"
+          width="300"
+          height="184"
+          srcset="/js_110_Oksana-2024/assets/project_10@2x-CtfeIB2b.webp 2x"
+          class="project-img"
+        />
+        <p>React, JavaScript, Node JS, Git</p>
+        <div class="box-button">
+          <h3 class="project-subtitle">ENGLISH EXCELLENCE WEBSERVICE</h3>
+          <a
+            class="projects-button"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+          >
+            VISIT
+            <svg class="icon-project" width="24" height="24">
+              <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-up"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+    <button class="load-container line" id="loadMore" type="button">
+      LOAD MORE
+    </button>
+    <div class="decor-line"></div>
+  </div>
+</section>
+
+      <section class="benefits-page">
+  <div class="container benefits-container">
+    <h2 class="benefits-title">
+      <span class="benefits-span">BENEFITS</span> OF WORKING WITH ME
+    </h2>
+    <ul class="benefits-team">
+      <li class="benefits-li">
+        <div class="benefits-icon-box">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-user"></use>
+          </svg>
+        </div>
+        <h4 class="benefits-subtitle">Expertise</h4>
+        <p class="benefits-text text1">
+          With extensive experience in development, I have a deep understanding
+          of programming and website development.
+        </p>
+      </li>
+      <li class="benefits-li">
+        <div class="benefits-icon-box">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-message-chat-circle"></use>
+          </svg>
+        </div>
+        <h4 class="benefits-subtitle">Communication</h4>
+        <p class="benefits-text text2">
+          Understanding your needs and wants is my priority and I am always
+          available for discussions and open to corrections.
+        </p>
+      </li>
+      <li class="benefits-li">
+        <div class="benefits-icon-box">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-brush"></use>
+          </svg>
+        </div>
+        <h4 class="benefits-subtitle">Art</h4>
+        <p class="benefits-text text3">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefits-li">
+        <div class="benefits-icon-box">
+          <svg class="benefits-icon" width="24" height="24">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-hourglass"></use>
+          </svg>
+        </div>
+        <h4 class="benefits-subtitle">Urgent execution</h4>
+        <p class="benefits-text text4">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+    <div class="benefits-decor"></div>
+  </div>
+</section>
+
+      <section class="faq-page">
+  <div class="accordion-container container">
+    <div class="faq-decor-container"></div>
+    <div class="faq-decor">
+      <h2 class="faq-title">
+        Frequently Asked
+        <span class="accent-title">Questions</span>
+      </h2>
+    </div>
+    <div class="accordion js-accordion">
+      <div class="accordion-item js-accordion-item">
+        <h3 class="accordion-subtitle js-accordion-subtitle">
+          What programming languages are most often used in your project?
+          <svg class="icon" width="32" height="32">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-sign"></use>
+          </svg>
+        </h3>
+        <div class="accordion-body js-accordion-body">
+          <p class="accordion-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-item js-accordion-item">
+        <h3 class="accordion-subtitle js-accordion-subtitle">
+          What are the deadlines for the project?
+          <svg class="icon" width="32" height="32">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-sign"></use>
+          </svg>
+        </h3>
+        <div class="accordion-body js-accordion-body">
+          <p class="accordion-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-item js-accordion-item">
+        <h3 class="accordion-subtitle js-accordion-subtitle">
+          What payment methods do you accept?
+          <svg class="icon" width="32" height="32">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-sign"></use>
+          </svg>
+        </h3>
+        <div class="accordion-body js-accordion-body">
+          <p class="accordion-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-item js-accordion-item">
+        <h3 class="accordion-subtitle js-accordion-subtitle">
+          How can I contact you?
+          <svg class="icon" width="32" height="32">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-sign"></use>
+          </svg>
+        </h3>
+        <div class="accordion-body js-accordion-body">
+          <p class="accordion-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-item js-accordion-item">
+        <h3 class="accordion-subtitle js-accordion-subtitle">
+          Do you provide advice or support?
+          <svg class="icon" width="32" height="32">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-sign"></use>
+          </svg>
+        </h3>
+        <div class="accordion-body js-accordion-body">
+          <p class="accordion-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </div>
+      <div class="accordion-item js-accordion-item">
+        <h3 class="accordion-subtitle js-accordion-subtitle">
+          What does the process of developing a software product look like?
+          <svg class="icon" width="32" height="32">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-sign"></use>
+          </svg>
+        </h3>
+        <div class="accordion-body js-accordion-body">
+          <p class="accordion-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews-page">
+  <div class="container container-reviews">
+    <h2 class="title-reviews">reviews</h2>
+    <div class="reviews-swiper">
+      <div class="swiper-wrapper"></div>
+      <div class="swiper-btn">
+        <button class="left-arrow" type="button" aria-label="Prev Slide" disabled>
+          <svg class="reviews-icon" width="20" height="20">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-narrow"></use>
+          </svg>
+        </button>
+        <button class="right-arrow" type="button" aria-label="Next Slide">
+          <svg class="reviews-icon" width="20" height="20">
+            <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-arrow-narrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="work-together-page">
+    <div class="container work-together-container">
+        <h2 class="work-together-title" id="work-together">let’s
+            <span class="work-together-accent">work together</span>
+        </h2>
+        <div class="work-together-wrap">
+            <div class="work-together-box">
+                <h3 class="work-together-article">Contact me to transform your ideas into exceptional solutions.</h3>
+                <address class="work-together-cont">
+                    <ul class="work-cont-list">
+                        <li class="work-cont-item">
+                            <a href="tel:+380904567890" class="work-cont-link" target="_blank">
+                                <svg class="work-cont-icon" width="24" height="24">
+
+                                    <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-phone"></use>
+
+                                </svg>
+                                +38 090 456 78 90
+                            </a>
+
+                        </li>
+                        <li class="work-cont-item">
+                            <a href="mailto:lloydjefferson@gmail.com" class="work-cont-link" target="_blank">
+                                <svg class="work-cont-icon" width="24" height="24">
+
+                                    <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-email"></use>
+
+                                </svg>
+                                lloydjefferson@gmail.com
+                            </a>
+
+                        </li>
+                        <li class="work-cont-item">
+                            <a href="https://maps.app.goo.gl/B3HAcB9UfDWMePKG7" class="work-cont-link" target="_blank">
+                                <svg class="work-cont-icon" width="24" height="24">
+
+                                    <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-location"></use>
+
+                                </svg>
+                                USA, New York
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            <form class="work-form">
+                <div class="work-form-wrap">
+                    <div class="work-form-box">
+                        <label for="user-email" class="work-form-label">
+                            <input class="work-form-input" id="user-email" name="user-email" type="email"
+                                pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" required placeholder="Your email*" />
+                            <svg class="visually-hidden work-form-icon" width="16" height="16">
+
+                                <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-success-filled"></use>
+
+                            </svg>
+                        </label>
+                        <p class="visually-hidden work-form-text">Invalid email, try again</p>
+                    </div>
+
+                    <label for="user-message">
+                        <textarea name="user-message" class="work-form-textarea" id="user-message" required
+                            placeholder="Message"></textarea>
+                    </label>
+
+                    <button type="submit" class="work-form-btn" data-modal-open>SEND MESSAGE</button>
+
+                </div>
+            </form>
+        </div>
+        <div class="work-decor"></div>
+    </div>
+</section>
+
+
+<div class="backdrop">
+    <div class="modal">
+        <button type="button" class="modal-close-btn">
+            <svg class="modal-close-icon" width="20" height="20">
+                <use href="/js_110_Oksana-2024/assets/symbol-defs-kMmFiqo-.svg#icon-close"></use>
+            </svg>
+        </button>
+
+        <h3 class="modal-title">Thank you for your interest in cooperation!</h3>
+
+        <p class="modal-text">The manager will contact you shortly to discuss further details and opportunities for
+
+            cooperation. Please stay in touch.</p>
+    </div>
+</div>
+    </main>
+
+    <footer class="footer-page">
+  <div class="container footer-container">
+    <div class="footer-container-logo">
+      <a class="footer-logo" href="./index.html"
+        >Lloyd<span class="footer-logo-jefferson">Jefferson.</span></a
+      >
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a
+            class="footer-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li class="footer-item">
+          <a
+            class="footer-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li class="footer-item">
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Linkedin</a
+          >
+        </li>
+        <li class="footer-item">
+          <a
+            class="footer-link"
+            href="https://github.com/Oksana-2024/project-SurvivorsTeam13"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+    <p class="footer-copyright">© Copyright 2024. Made by LloydJefferson</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
